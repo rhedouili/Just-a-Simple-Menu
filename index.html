@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Simple Menu</title>
+  </head>
+  <body>
+    <header>
+      <nav id="nav">
+        <ul>
+          <li class="link">
+            <span class="material-icons search"> search </span>
+            <input type="text" placeholder="Search here" />
+          </li>
+          <li class="link">
+            <div class="dropdown">
+              <button class="button">
+                All Names
+                <span class="material-icons"> keyboard_arrow_down </span>
+              </button>
+              <div class="info-grid">
+                <h4 class="title">Students</h4>
+                <div class="flex">
+                  <a href="#">Yassine</a>
+                  <a href="#">Kamal</a>
+                  <a href="#">Rachid</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="link">
+            <div class="dropdown">
+              <button class="button">
+                All Classes
+                <span class="material-icons"> keyboard_arrow_down </span>
+              </button>
+              <div class="info-grid">
+                <h3 class="title">Class</h3>
+                <div class="flex">
+                  <a href="#">Class A</a>
+                  <a href="#">Class B</a>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  </body>
+</html>
